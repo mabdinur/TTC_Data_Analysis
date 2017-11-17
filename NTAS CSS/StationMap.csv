@@ -1,0 +1,137 @@
+Station ID,Station Name,PVSID,Next Station,Distance To Next Station,Previous Station ID,Line,Direction,Is End Station,Dest1,Dest2,Dest3
+FIN2,Finch,ttc-finch2,NYC2,1265.2248,FIN1,1,2,1,BLO2 ,UNI2,DUN2
+NYC2,North York Centre,ttc-northyork2,SHP2,651.0528,FIN2,1,2,0,BLO2 ,UNI2,DUN2
+SHP2,Sheppard-Yonge,ttc-shepard-yonge2,YKM2,1795.8816,NYC2,1,2,0,BLO2,UNI2,DUN2
+YKM2,York Mills,ttc-yorkmills2,LAW2,1759.3056,SHP2,1,2,0,BLO2,UNI2,DUN2
+LAW2,Lawrence,ttc-lawrence2,EGL2,2175.0528,YKM2,1,2,0,BLO2,UNI2,DUN2
+EGL2,Eglinton,ttc-eglinton2,DAV2,731.52,LAW2,1,2,0,BLO2,UNI2,DUN2
+DAV2,Davisville,ttc-davisville2,STC2,963.4728,EGL2,1,2,0,BLO2,UNI2,DUN2
+STC2,St Clair,ttc-stclair2,SUM2,620.5728,DAV2,1,2,0,BLO2,UNI2,DUN2
+SUM2,Summerhill,ttc-summerhill2,ROS2,412.3944,STC2,1,2,0,BLO2,UNI2,DUN2
+ROS2,Rosedale,ttc-rosedale2,BLO2,579.4248,SUM2,1,2,0,BLO2,UNI2,DUN2
+BLO2,Bloor,ttc-bloor2,WEL2,377.6472,ROS2,1,2,0,DUN2,UNI2,
+WEL2,Wellesley,ttc-wellesley2,COL2,364.236,BLO2,1,2,0,UNI2,,
+COL2,College,ttc-college2,DUN2,330.4032,WEL2,1,2,0,UNI2,,
+DUN2,Dundas,ttc-dundas2,QUN2,270.9672,COL2,1,2,0,UNI2,,
+QUN2,Queen,ttc-queen2,KNG2,308.1528,DUN2,1,2,0,UNI2,,
+KNG2,King,ttc-king2,UNI2,298.0944,QUN2,1,2,0,UNI2,,
+UNI2,Union,ttc-union2,STA2,362.712,KNG2,1,2,0,SGU2,SHW2,
+STA2,St Andrew,ttc-standrew2,OSG2,237.744,UNI2,1,2,0,SCW2,SHW2,
+OSG2,Osgoode,ttc-osgoode2,STP2,269.4432,STA2,1,2,0,SCW2,SHW2,
+STP2,St Patrick,ttc-stpatrick2,QPK2,479.1456,OSG2,1,2,0,SCW2,SHW2,
+QPK2,Queen's Park,ttc-queenspark2,MUS2,544.068,STP2,1,2,0,SCW2,SHW2,
+MUS2,Museum,ttc-museum2,SGU2,488.442,QPK2,1,2,0,SCW2,SHW2,
+SGU2,St George,ttc-stg-up2,SPA2,492.8616,MUS2,1,2,0,SCW2,SHW2,
+SPA2,Spadina,ttc-spadina2,DUP2,401.1168,SGU2,1,2,0,SCW2,SHW2,
+DUP2,Dupont,ttc-dupont2,SCW2,1279.5504,SPA2,1,2,0,SHW2,,
+SCW2,St Clair West,ttc-stclair-w2,EGW2,2461.4124,DUP2,1,2,0,SHW2,,
+EGW2,Eglinton West,ttc-eglintonwest2,GCN2,844.9056,SCW2,1,2,0,SHW2,,
+GCN2,Glencairn,ttc-glencairn2,LWW2,598.932,EGW2,1,2,0,SHW2,,
+LWW2,Lawrence West,ttc-lawrencewest2,YKD2,956.4624,GCN2,1,2,0,SHW2,,
+YKD2,Yorkdale,ttc-yorkdale2,WIL2,952.8048,LWW2,1,2,0,SHW2,,
+WIL2,Wilson,ttc-wilson2,SHW2,1941.99,YKD2,1,2,0,SHW2,,
+SHW2,Sheppard West,ttc-sheppardwest2,TERM,0,WIL2,1,2,1,KNG1,STA1,UNI1
+SHW1,Sheppard West,ttc-sheppardwest1,WIL1,1885.309152,SHW2,1,1,1,KNG1,STA1,UNI1
+WIL1,Wilson,ttc-wilson1,YKD1,950.6712,SHW1,1,1,0,KNG1,STA1,UNI1
+YKD1,Yorkdale,ttc-yorkdale1,LWW1,952.1952,WIL1,1,1,0,KNG1,STA1,UNI1
+LWW1,Lawrence West,ttc-lawrencewest1,GCN1,595.884,YKD1,1,1,0,KNG1,STA1,UNI1
+GCN1,Glencairn,ttc-glencairn1,EGW1,845.2104,LWW1,1,1,0,KNG1,STA1,UNI1
+EGW1,Eglinton West,ttc-eglintonwest1,SCW1,2399.9952,GCN1,1,1,0,KNG1,STA1,UNI1
+SCW1,St Clair West,ttc-stclair-w1,DUP1,1279.5504,EGW1,1,1,0,KNG1,STA1,UNI1
+DUP1,Dupont,ttc-dupont1,SPA1,402.6408,SCW1,1,1,0,KNG1,STA1,UNI1
+SPA1,Spadina,ttc-spadina1,SGU1,472.2876,DUP1,1,1,0,KNG1,STA1,UNI1
+SGU1,St George,ttc-stg-up1,MUS1,511.3782,SPA1,1,1,0,KNG1,STA1,UNI1
+MUS1,Museum,ttc-museum1,QPK1,544.068,SGU1,1,1,0,DUN1,STC1,UNI1
+QPK1,Queen's Park,ttc-queenspark1,STP1,483.7176,MUS1,1,1,0,DUN1,STC1,UNI1
+STP1,St Patrick,ttc-stpatrick1,OSG1,267.9192,QPK1,1,1,0,DUN1,STC1,UNI1
+OSG1,Osgoode,ttc-osgoode1,STA1,312.5724,STP1,1,1,0,DUN1,STC1,UNI1
+STA1,St Andrew,ttc-standrew1,UNI1,352.044,OSG1,1,1,0,DUN1,STC1,UNI1
+UNI1,Union,ttc-union1,KNG1,291.5412,STA1,1,1,0,BLO1,DUN1,EGL1
+KNG1,King,ttc-king1,QUN1,308.1528,UNI1,1,1,0,BLO1,FIN1,EGL1
+QUN1,Queen,ttc-queen1,DUN1,269.748,KNG1,1,1,0,BLO1,FIN1,EGL1
+DUN1,Dundas,ttc-dundas1,COL1,330.4032,QUN1,1,1,0,BLO1,FIN1,EGL1
+COL1,College,ttc-college1,WEL1,357.8352,DUN1,1,1,0,BLO1,FIN1,EGL1
+WEL1,Wellesley,ttc-wellesley1,BLO1,377.6472,COL1,1,1,0,BLO1,FIN1,EGL1
+BLO1,Bloor,ttc-bloor1,ROS1,579.7296,WEL1,1,1,0,FIN1,FIN1,EGL1
+ROS1,Rosedale,ttc-rosedale1,SUM1,418.1856,BLO1,1,1,0,FIN1,,
+SUM1,Summerhill,ttc-summerhill1,STC1,622.7064,ROS1,1,1,0,FIN1,,
+STC1,St Clair,ttc-stclair1,DAV1,959.8152,SUM1,1,1,0,FIN1,,
+DAV1,Davisville,ttc-davisville1,EGL1,733.9584,STC1,1,1,0,FIN1,,
+EGL1,Eglinton,ttc-eglinton1,LAW1,2179.9296,DAV1,1,1,0,FIN1,,
+LAW1,Lawrence,ttc-lawrence1,YKM1,1760.22,EGL1,1,1,0,FIN1,,
+YKM1,York Mills,ttc-yorkmills1,SHP1,1798.9296,LAW1,1,1,0,FIN1,,
+SHP1,Sheppard-Yonge,ttc-shepard-yonge1,NYC1,651.3576,YKM1,1,1,0,FIN1,,
+NYC1,North York Centre,ttc-northyork1,FIN1,1270.1016,SHP1,1,1,0,FIN1,,
+FIN1,Finch,ttc-finch1,TERM,0,NYC1,1,1,1,BLO2 ,UNI2,DUN2
+KEN2,Kennedy,ttc-kennedy2,WAR2,2595.167784,KEN1,2,2,1,YNG2,SGL2,UNI1
+WAR2,Warden,ttc-warden2,VPK2,1988.11896,KEN2,2,2,0,YNG2,SGL2,UNI1
+VPK2,Victoria Park,ttc-vicpark2,MST2,1068.324,WAR2,2,2,0,YNG2,SGL2,UNI1
+MST2,Main Street,ttc-main2,WDB2,796.1376,VPK2,2,2,0,YNG2,SGL2,UNI1
+WDB2,Woodbine,ttc-woodbine2,COX2,566.4708,MST2,2,2,0,YNG2,SGL2,UNI1
+COX2,Coxwell,ttc-coxwell2,GWD2,370.332,WDB2,2,2,0,YNG2,SGL2,UNI1
+GWD2,Greenwood,ttc-greenwood2,DON2,504.1392,COX2,2,2,0,YNG2,SGL2,UNI1
+DON2,Donlands,ttc-donlands2,PAP2,363.6264,GWD2,2,2,0,YNG2,SGL2,UNI1
+PAP2,Pape,ttc-pape2,CHE2,415.8996,DON2,2,2,0,YNG2,SGL2,UNI1
+CHE2,Chester,ttc-chester2,BRD2,443.078616,PAP2,2,2,0,YNG2,SGL2,UNI1
+BRD2,Broadview,ttc-broadview2,CFK2,596.9508,CHE2,2,2,0,YNG2,SGL2,UNI1
+CFK2,Castle Frank,ttc-castlefrank2,SHE2,381,BRD2,2,2,0,YNG2,SGL2,UNI1
+SHE2,Sherbourne,ttc-sherbourne2,YNG2,593.4456,CFK2,2,2,0,YNG2,SGL2,UNI1
+YNG2,Yonge,ttc-yonge2,BAU2,288.2646,SHE2,2,2,0,KIP2,SGL2,
+BAU2,Bay,ttc-bay2,SGL2,470.0016,YNG2,2,2,0,KIP2,SGL2,
+SGL2,St George,ttc-stg-lo2,BSP2,296.4942,BAU2,2,2,0,KIP2,,
+BSP2,Spadina,ttc-spadina-bd2,BAT2,363.9312,SGL2,2,2,0,KIP2,,
+BAT2,Bathurst,ttc-bathurst2,CHR2,384.048,BSP2,2,2,0,KIP2,,
+CHR2,Christie,ttc-christie2,OSS2,572.594232,BAT2,2,2,0,KIP2,,
+OSS2,Ossington,ttc-ossington2,DUF2,560.5272,CHR2,2,2,0,KIP2,,
+DUF2,Dufferin,ttc-dufferin2,LAN2,307.2384,OSS2,2,2,0,KIP2,,
+LAN2,Lansdowne,ttc-lansdowne2,DNW2,607.4664,DUF2,2,2,0,KIP2,,
+DNW2,Dundas West,ttc-dundaswest2,KEL2,474.1926,LAN2,2,2,0,KIP2,,
+KEL2,Keele,ttc-keele2,HPK2,506.4252,DNW2,2,2,0,KIP2,,
+HPK2,High Park,ttc-highpark2,RUN2,519.684,KEL2,2,2,0,KIP2,,
+RUN2,Runnymede,ttc-runnymede2,JNE2,516.72744,HPK2,2,2,0,KIP2,,
+JNE2,Jane,ttc-jane2,OML2,726.0336,RUN2,2,2,0,KIP2,,
+OML2,Old Mill,ttc-oldmill2,RYK2,1164.012912,JNE2,2,2,0,KIP2,,
+RYK2,Royal York,ttc-royalyork2,ISL2,1061.859192,OML2,2,2,0,KIP2,,
+ISL2,Islington,ttc-islington2,KIP2,1126.946184,RYK2,2,2,0,KIP2,,
+KIP2,Kipling,ttc-kipling2,TERM,0,ISL2,2,2,1,YNG1,SGL1,KEN1
+KIP1,Kipling,ttc-kipling1,ISL1,1126.946184,KIP2,2,1,1,YNG1,SGL1,KEN1
+ISL1,Islington,ttc-islington1,RYK1,942.033168,KIP1,2,1,0,YNG1,SGL1,KEN1
+RYK1,Royal York,ttc-royalyork1,OML1,1164.9456,ISL1,2,1,0,YNG1,SGL1,KEN1
+OML1,Old Mill,ttc-oldmill1,JNE1,721.7664,RYK1,2,1,0,YNG1,SGL1,KEN1
+JNE1,Jane,ttc-jane1,RUN1,471.00744,OML1,2,1,0,YNG1,SGL1,KEN1
+RUN1,Runnymede,ttc-runnymede1,HPK1,522.1224,JNE1,2,1,0,YNG1,SGL1,KEN1
+HPK1,High Park,ttc-highpark1,KEL1,531.4188,RUN1,2,1,0,YNG1,SGL1,KEN1
+KEL1,Keele,ttc-keele1,DNW1,374.2182,HPK1,2,1,0,YNG1,SGL1,KEN1
+DNW1,Dundas West,ttc-dundaswest1,LAN1,627.888,KEL1,2,1,0,YNG1,SGL1,KEN1
+LAN1,Lansdowne,ttc-lansdowne1,DUF1,336.1944,DNW1,2,1,0,YNG1,SGL1,KEN1
+DUF1,Dufferin,ttc-dufferin1,OSS1,535.5336,LAN1,2,1,0,YNG1,SGL1,KEN1
+OSS1,Ossington,ttc-ossington1,CHR1,526.746216,DUF1,2,1,0,YNG1,SGL1,KEN1
+CHR1,Christie,ttc-christie1,BAT1,392.1252,OSS1,2,1,0,YNG1,SGL1,KEN1
+BAT1,Bathurst,ttc-bathurst1,BSP1,365.6076,CHR1,2,1,0,YNG1,SGL1,KEN1
+BSP1,Spadina,ttc-spadina-bd1,SGL1,352.9584,BAT1,2,1,0,YNG1,SGL1,KEN1
+SGL1,St George,ttc-stg-lo1,BAU1,450.4182,BSP1,2,1,0,YNG1,KEN1,
+BAU1,Bay,ttc-bay1,YNG1,293.5224,SGL1,2,1,0,YNG1,KEN1,
+YNG1,Yonge,ttc-yonge1,SHE1,573.024,BAU1,2,1,0,KEN1,,
+SHE1,Sherbourne,ttc-sherbourne1,CFK1,421.5384,YNG1,2,1,0,KEN1,,
+CFK1,Castle Frank,ttc-castlefrank1,BRD1,710.3364,SHE1,2,1,0,KEN1,,
+BRD1,Broadview,ttc-broadview1,CHE1,421.767,CFK1,2,1,0,KEN1,,
+CHE1,Chester,ttc-chester1,PAP1,384.429,BRD1,2,1,0,KEN1,,
+PAP1,Pape,ttc-pape1,DON1,368.046,CHE1,2,1,0,KEN1,,
+DON1,Donlands,ttc-donlands1,GWD1,470.916,PAP1,2,1,0,KEN1,,
+GWD1,Greenwood,ttc-greenwood1,COX1,376.428,DON1,2,1,0,KEN1,,
+COX1,Coxwell,ttc-coxwell1,WDB1,635.4318,GWD1,2,1,0,KEN1,,
+WDB1,Woodbine,ttc-woodbine1,MST1,791.2608,COX1,2,1,0,KEN1,,
+MST1,Main Street,ttc-main1,VPK1,1033.8816,WDB1,2,1,0,KEN1,,
+VPK1,Victoria Park,ttc-vicpark1,WAR1,1985.01,MST1,2,1,0,KEN1,,
+WAR1,Warden,ttc-warden1,KEN1,2598.215784,VPK1,2,1,0,KEN1,,
+KEN1,Kennedy,ttc-kennedy1,TERM,0,WAR1,2,1,1,YNG2,SGL2,UNI1
+DML2,Don Mills,ttc-donmills2,LES2,1610,DML1,3,2,1,YIE2,,
+LES2,Leslie,ttc-leslie2,BSS2,666,DML2,3,2,0,YIE2,,
+BSS2,Bessarion,ttc-bessarion2,BYV2,763,LES2,3,2,0,YIE2,,
+BYV2,Bayview,ttc-bayview2,YIE2,1930,BSS2,3,2,0,YIE2,,
+YIE2,Sheppard,ttc-sheppard2,TERM,0,BYV2,3,2,1,DML1,,
+YIE1,Sheppard,ttc-sheppard1,BYV1,1948,YIE2,3,1,1,DML1,,
+BYV1,Bayview,ttc-bayview1,BSS1,761,YIE1,3,1,0,DML1,,
+BSS1,Bessarion,ttc-bessarion1,LES1,662,BYV1,3,1,0,DML1,,
+LES1,Leslie,ttc-leslie1,DML1,1614,BSS1,3,1,0,DML1,,
+DML1,Don Mills,ttc-donmills1,TERM,0,LES1,3,1,1,YIE2,,
