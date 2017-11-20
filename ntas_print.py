@@ -6,13 +6,13 @@ from ntas_parse import ParseNtasLogs
 
 class ExportLogs(ParseNtasLogs):
 
-    day = "TUES"
+    exportFolder = "DAY" + "-Station_figures" + "\\" + day+ "-graph-data-4.csv"
     def __init__(self, dirlist = None):
         if dirlist is None:
             self.dirlist = ["F:\\NTAS_Log-Tues-1107-1.zip", "F:\\NTAS_Log-Tues-1114-1.zip","F:\\NTAS_Log-Tues-1114-2.zip"]
         super().__init__()
 
-    def process_data(self, outputfile=day + "-Station_figures" + "\\" + day+ "-graph-data-4.csv" ):
+    def process_data(self, outputfile=exportFolder ):
         for dir1 in self.dirlist:
             self.read_zipfolder(dir1)
         self.create_csv_graphs(outputfile, self.__test_print, header=True)

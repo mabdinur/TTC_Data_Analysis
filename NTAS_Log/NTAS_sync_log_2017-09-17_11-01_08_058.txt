@@ -1,3 +1,0 @@
-NTASData [id=16593683250, subwayLine=SHEP, stationId=LES1, trainId=462, trainMessage=AtStation, trainDirection=East, timeInt=0.0, timeString=00.00, trainDestination=DML1, createDate=Sun Sep 17 11:01:08 EDT 2017, systemMessageType=Normal]
-NTASData [id=16593683251, subwayLine=SHEP, stationId=DML1, trainId=462, trainMessage=Arriving, trainDirection=East, timeInt=3.504664429530201, timeString=03.50, trainDestination=DML1, createDate=Sun Sep 17 11:01:08 EDT 2017, systemMessageType=Normal]
-NTASData [id=16593683252, subwayLine=SHEP, stationId=DML2, trainId=462, trainMessage=Arriving, trainDirection=East, timeInt=3.504664429530201, timeString=03.50, trainDestination=DML1, createDate=Sun Sep 17 11:01:08 EDT 2017, systemMessageType=Normal]

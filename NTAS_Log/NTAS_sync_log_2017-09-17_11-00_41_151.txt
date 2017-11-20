@@ -1,3 +1,0 @@
-NTASData [id=16593679447, subwayLine=SHEP, stationId=BYV2, trainId=464, trainMessage=Arriving, trainDirection=West, timeInt=0.374496644295302, timeString=00.37, trainDestination=YIE2, createDate=Sun Sep 17 11:00:41 EDT 2017, systemMessageType=Normal]
-NTASData [id=16593679448, subwayLine=SHEP, stationId=YIE2, trainId=464, trainMessage=Arriving, trainDirection=West, timeInt=4.5154026845637585, timeString=04.52, trainDestination=YIE2, createDate=Sun Sep 17 11:00:41 EDT 2017, systemMessageType=Normal]
-NTASData [id=16593679449, subwayLine=SHEP, stationId=YIE1, trainId=464, trainMessage=Arriving, trainDirection=West, timeInt=4.5154026845637585, timeString=04.52, trainDestination=YIE2, createDate=Sun Sep 17 11:00:41 EDT 2017, systemMessageType=Normal]
